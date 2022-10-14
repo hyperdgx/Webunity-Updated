@@ -1,5 +1,5 @@
 # Webunity-Updated
-A website for our team it is responsive and here HTML5, CSS3 and Javascript is used.
+A website for our team, it is responsive and here HTML5, CSS3 and Javascript is used.
 
 
 # Mobile Screenshot
@@ -27,5 +27,5 @@ A website for our team it is responsive and here HTML5, CSS3 and Javascript is u
 • JAVASCRIPT
 
 # Note
-In deployed pages there can be glitches due to lack of linkage of images folder.
+In deployed pages, there can be glitches due to lack of linkage of images folder.
 Sorry for the inconvenience...
