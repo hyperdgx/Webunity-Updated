@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #060d22;
+    color: white;
+}
+.logo span{
+    background: linear-gradient(to right, #ff7c71, #ffcd7c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 2% 0;
+    padding: 0 10%;
+}
+.menunav {
+    list-style: none;
+    position: relative;
+    top: 1.5vh;
+}
+.menunav li{
+   float: left;
+   margin-left: 30px;
+}
+.menunav li a{
+    border: 1px solid orange;
+    border-radius: 20px;
+    border-style: dashed;
+    padding: 10px 14px;
+    transition: all 0.3s linear;
+    color: white;
+    text-decoration: none;
+}
+.menunav li a:hover{
+    color: black;
+    background: linear-gradient(to right, #ff7c71, #ffcd7c);
+}
+.entrytext span{
+    background: linear-gradient(to right, #ff7c71, #ffcd7c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.entrytext{
+    font-size: 56px;
+}
+.entrytext2{
+    font-size: 48px;
+}
+.entrybox{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    top: 50vh;
+    z-index: 1;
+    transform: translate(-50%,-150%);
+}
+.entrybox2{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%,-50%);
+}
+.paraabout{
+    width: 40%;
+    position: relative;
+    top: 8vh;
+    text-align: right;
+
+}
+.paraabout2{
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+.one1t{
+    background: linear-gradient(to right, #c44eac, #3282f6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+.one12{
+    background: linear-gradient(to right, #c44eac, #3282f6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tabling{
+    width: 40%;
+}
+.homepage{
+    
+    height: 98.5vh;
+    background-color: #060d22;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.detailpage{
+    background-color: #fff;
+    height: 100vh;
+    color: #060d22;
+}
+.entrytext3{
+    text-align: center;
+    top: 20vh;
+    position: relative;
+}
+.lastpage{
+    height: 100vh;
+    background-color: #060d22;
+    background-position: bottom;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.spnp{
+    background: linear-gradient(to right, #ffcd7c, #ff7c71);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    position: relative;
+    top: 50vh;
+    color: #d6cece;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.card1{
+    width: 30%;
+    background-color: rgba(216, 203, 203, 0.116);
+    padding: 20px 22px;
+    height: 40vh;
+    color: #d6cece;
+    border-radius: 10px;
+    transition: all linear 0.2s;
+}
+.card1:hover{
+    background-color: #45484e;
+    transform: scale(1.05);
+}
+.postofmem{
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(151, 145, 145, 0.582);
+}
+.linemem{
+    font-style: oblique;
+    margin-top: 10%;
+    transition: all linear 0.2s;
+    color: rgba(141, 142, 146, 0.788);
+}
+.card1:hover .linemem{
+    color: rgba(255, 255, 255, 0.719);
+}
+.card1:hover .membername1{
+    color: white;    
+}
+.card1:hover .postofmem{
+    color: #868383;
+}
+.card1:hover img{
+    filter: none;
+}
+.membername1{
+    margin-top: 2%;
+    transition: all linear 0.2s;
+    font-weight: 600;
+    color: rgba(204, 192, 192, 0.514);
+}
+.cards img{
+    transition: all 0.2s linear;
+    margin-top: 10%;
+    border-radius: 50%;
+    filter: grayscale();
+}
+.cards img:hover{
+    filter: none;
+}
+footer{
+    height: 50vh;
+    color: white;
+    background-color: #060d22;
+
+    
+}
+.getstar{
+    background: linear-gradient(to right, #f3ac3a, #fd5040);
+    color: white;
+    height: 20vh;
+    font-size: 14px;
+}
+.getstar h1{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 5vh;
+}
+.btnhai{
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    background-color: transparent;
+    padding: 18px 14px;
+    font-size: 18px;
+    border: 3px solid white;
+    margin-right: 18%;
+    transition: all linear 0.2s;
+}
+.btnhai:hover{
+    opacity: 50%;
+    transform: scale(1.05);
+    color: black;
+    border: 3px solid black;
+}
+.bottompage{
+    text-align: center;
+    height: 30vh;
+}
+.footlink{
+    width: 15%;
+    position: relative;
+    left: 50%;
+    top: 12vh;
+    transform: translate(-50%,-50%);
+}
+.footlink ul a{
+    text-decoration: none;
+    margin: 0 2%;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.copyrights{
+    text-align: center;
+    font-size: 14px;
+    top: 12vh;
+    position: relative;
+}
+.soocial{
+    position: relative;
+    top: 6vh;
+    margin: 0 12px;
+}
+.soocial img{
+    transition: all 0.1s linear;
+}
+.soocial img:hover{
+    transform: scale(1.05);
+    filter: brightness(50%);
+}
+.copyrights span{
+    color: #615d5d;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .logo{
+        margin: 40px 20px;
+        font-size: 3rem;
+        text-align: center;
+      
+        
+    }
+    .logo span{
+        color: white;
+    }
+    .navbar{
+        display: inline;
+        
+        position: relative;
+
+    }
+    body{
+         background-color: #060d22;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        
+    }
+    .homepage{
+        background-image: none;
+        box-shadow: none;
+        color: white;
+    }
+    .homepage span{
+        color: orange;
+    }
+    .menunav ul{
+        list-style: none;
+    }
+    .detailpage{
+        box-shadow: none;
+    }
+    .menunav li a{
+        color: white;
+        border: 1px solid orange;
+        padding: 3% 10%;
+        border-style: dashed;
+
+    }
+    .menunav li a:hover{
+        padding: 3% 12%;
+
+    }
+    .menunav li{
+        display: block;
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10%;
+        width: auto;
+        position: relative;
+    }
+    .entrybox{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        top: 90vh;
+        position: relative;
+    }
+    .entrybox2{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        top: 50vh;
+        position: relative;
+    }
+    .paraabout{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        position: relative;
+    }
+    .tabling{
+        padding-top: 50px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        position: relative;
+    }
+    .one1t{
+        margin-top: 8%;
+        font-size: 18px;
+    }
+    .entrytext3{
+        display: block;
+        color: rgba(255, 255, 255, 0.664);
+        font-size: 38px;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        top: 20vh;
+        position: relative;
+    }
+    .entrytext3 span{
+        color: red;
+        
+    }
+    .lastpage{
+        height: 225vh;
+        box-shadow: none;
+    }
+    .cards{
+        display: block;
+        top: 95vh;
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    .card1{
+        width: 80%;
+        margin-bottom: 20%;
+        height: 40vh;
+    }
+    .card1 img{
+        margin-top: 18%;
+        position: relative;
+        transform: scale(1.5);
+    }
+    .getstar{
+        height: 40vh;
+        display: inline-block;
+        width: 100%
+    }
+    .getstar h1{
+        text-align: center;
+        display: block;
+        width: 80%;
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    .btnhai{
+        text-align: center;
+        margin: auto;
+        display: block;
+        top: 4vh;
+        transform: scale(0.8);
+    }
+    .btnhai:hover{
+        transform: scale(0.85);
+    }
+    footer{
+        height: 80vh;
+    }
+    .footlink{
+        width: 100%;
+        top: 20vh;
+    }
+    .footlink a:hover{
+        color: orangered;
+    }
+    .copyrights{
+        top: 24vh;
+    }
+    .soocial{
+        transform: scale(1);
+        top: 8vh;
+        display: inline;
+        overflow-x: hidden;
+    }
+    .soocial img{
+        width: 10%;
+        margin: 0 10px;
+    }
+    .soocial img:hover{
+        transform: translateY(-10%);
+    }
+
+    }
