@@ -29,3 +29,7 @@ A website for our team, it is responsive and here HTML5, CSS3 and Javascript is 
 # Note
 In deployed pages, there can be glitches due to lack of linkage of images folder.
 Sorry for the inconvenience...
+
+# Status
+
+*I'm working on it and updates will come in future...*
