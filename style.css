@@ -4,6 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+marquee{
+    color: #060d22;
+    background: linear-gradient(to right, #ff7c71, #ffcd7c);
+}
 .hidden{
     opacity: 0;
     filter: blur(5px);
