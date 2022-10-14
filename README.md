@@ -1,2 +1,2 @@
 # Webunity-Updated
-A wbsite for our team
+A website for our team
