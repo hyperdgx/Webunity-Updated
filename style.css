@@ -328,6 +328,7 @@ footer{
     }
     .detailpage{
         box-shadow: none;
+        overflow-x: hidden;
     }
     .menunav li a{
         color: white;
