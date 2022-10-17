@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: myFontStyle;
-    src: url(/font/FontsFree-Net-Aveny-T-WEB.ttf);
+    src: url(/FontsFree-Net-Aveny-T-WEB.ttf);
 }
 html, body {
     font-family: myFontStyle;
