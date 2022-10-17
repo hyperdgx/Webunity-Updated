@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: myFontStyle;
-    src: url(FontsFree-Net-Aveny-T-WEB.ttf);
+    src: url("https://github.com/hyperdgx/Webunity-Updated/blob/4b4fd9bafe66f76edda7b49de62d201f040fab1b/FontsFree-Net-Aveny-T-WEB.ttf");
 }
 html, body {
     font-family: myFontStyle;
