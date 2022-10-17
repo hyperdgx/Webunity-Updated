@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -427,7 +426,7 @@ body{
         color: white;
         text-decoration: none;
         position: relative;
-        top: 100vh;
+        top: 110vh;
         border-radius: 20px;
         border: 1px solid orange;
         padding: 3% 10%;
