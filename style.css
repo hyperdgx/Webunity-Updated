@@ -22,6 +22,7 @@ html, body {
     filter: blur(0);
     transform: translateY(0);
 }
+
 .regfoot{
     color: white;
     background-color: #060d22;
@@ -113,6 +114,26 @@ body{
     position: relative;
     top: 1.5vh;
 }
+ul{
+    list-style: none;
+}
+.regmenunav li{
+    float: left;
+    margin-left: 30px;
+ }
+ .regmenunav li a{
+     border: 1px solid orange;
+     border-radius: 20px;
+     border-style: dashed;
+     padding: 10px 14px;
+     transition: all 0.3s linear;
+     color: white;
+     text-decoration: none;
+ }
+ .regmenunav li a:hover{
+     color: black;
+     background: linear-gradient(to right, #ff7c71, #ffcd7c);
+ }
 .menunav li{
    float: left;
    margin-left: 30px;
