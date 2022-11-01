@@ -1,118 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
-    <title>Webunity - We are Here !!!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Portfolio</title>
 </head>
+<body>
 
-<body class="hidden" >
-    
-    <div class="navbar">
+<section id="maincon">
+    <nav>
+        <a href="#maincon" class="logo"><i class="fa fa-code" aria-hidden="true"></i>
+            Harsh
+        </a>
 
-        <h1  class="logo"><span>Web</span>Unity</h1>
-
-        <ul class="menunav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#lastpage">Members</a></li>
-            <li><a href="#getstar">Join Us</a></li>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a class="active" href="#maincon"><i class="fa fa-home" aria-hidden="true"></i>
+                Home</a><span onclick="closeNav()" class="icon-menu1"><i class="fa fa-close"></i></span></li>
+            <li><a href="#about-con"><i class="fa fa-male" aria-hidden="true"></i>
+                About</a></li>
+            <li><a href="#services"><i class="fa fa-code-fork" aria-hidden="true"></i>
+                Work</a></li>
+            <li><a href="#contact-me"><i class="fa fa-mobile" aria-hidden="true"></i>
+                Contact</a></li>
+                
         </ul>
+        <span onclick="openNav()" class="icon-menu"><i class="fa fa-bars"></i></span>
+    </nav>
 
+    <div class="text-con">
+        <p>Hi,</p>
+        <p>I'm HyperDGX</p>
+        <p>I am a Website Designer and <br> Graphics Designer</p>
+        <button class="hire-btn"><i class="fa fa-gratipay" aria-hidden="true"></i>
+            Hire Me</button>
+        <button  class="cv-btn"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+            Download CV</button>
+    </div>
+    <img class="spark" src="/images/tumblr_mhtt5ts8BK1rkfeyuo1_250.gif" alt="eorror" >
+
+
+</section>
+
+<section class="about-con" >
+     <img class="spark2" id="about-con" src="/images/4540cfd8909197c2559dd30a7234f63e.gif" alt="">
+     <div class="about-txt">
+        <p><i class="fa fa-address-card" aria-hidden="true"></i>
+
+            About Me</p>
+        <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            Graphics and Website Designer</p> 
+        <p>Hey ! What's Up, I'm HyperDGX and I'm a student, just doing computer science engineering from bhopal and as i you know that i am a graphics and web designer adnd one more thing i want to tell you that i know many more things like editing, blender, rendering, modelling, animation, digital art and more</p>
+        <p>If you want any type of help you an contact me i'll try to solve it for you...</p>
+     </div>
+
+     
+
+</section>
+
+<div class="services" >
+    <p id="services"><i class="fa fa-tasks" aria-hidden="true"></i>
+        Services</p>
+    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        Services Available</p>
+    <p>If you have bussiness or personal problems like web design, app design, editing, production and more then you can freely contact me i'll try to get reed u out from that problem as soon as possible...</p>
+
+    <div class="boxes">
+        <div class="box-1">
+            <span><i class="fa fa-chrome" aria-hidden="true"></i>
+
+            </span>
+            <p>Website Designing</p>
+            <p>I'll design website that will change ur mood</p>
+            <button>Read More</button>
+        </div>
+        <div class="box-2">
+            <span><i class="fa fa-glide-g" aria-hidden="true"></i>
+
+            </span>
+            <p>Graphics Designing</p>
+            <p>I'll design logos and flyer and more things that will change ur mood</p>
+            <button>Read More</button>
+        </div>
+        <div class="box-3">
+            <span><i class="fa fa-joomla" aria-hidden="true"></i>
+            </span>
+            <p>3d Graphics</p>
+            <p>I'll design best 3d renders that will change ur mood</p>
+            <button>Read More</button>
+        </div>
+    </div>
+ </div>
+
+ <div class="contact-me" id="contact-me">
+    <p>If you have any project in your mind then contact me</p>
+    <button>Contact Me <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </button>
+ </div>
+
+ <footer>
+    <p><i class="fa fa-link" aria-hidden="true"></i>
+        Social Links</p>
+    <p>I create as soon as possible, Because time is very important for you and me to as well.</p>
+
+    <div class="soc-ico">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
     </div>
 
-    <div class="homepage">
-        <div class="entrybox">
-            <h1 class="entrytext"> The thing we <br> need is <span>skills</span></h1>
-            <p class="paraabout"> We are here for you whenever you are in any problem don't panic we will try to resolve
-                it for you. You are the thing that we are looking for</p>
-        </div>
-        </div>
+    <p class="copyright">Copyright &copy;2022, Designed by <span>HyperDGX</span></p>
+ </footer>
 
-
-    <div class="detailpage">
-
-        <div class="entrybox2">
-            <h1 class="entrytext2">We are <span class="one12">building</span> <br> for you</h1>
-            <div class="tabling">
-                <h2 class="one1t">Build Process</h2>
-                <p class="paraabout2">Build process done by our most experienced Member, which provides professional
-                    look...</p>
-                <h2 class="one1t">Check Process</h2>
-                <p class="paraabout2">Check process is one the best process because we check anything multiple time
-                    before final process...</p>
-                <h2 class="one1t">Final Process</h2>
-                <p class="paraabout2">Final process is also know as production process where we finally out the task we
-                    have done...</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="lastpage" id="lastpage">
-        <h1 class="entrytext3">We are the team who believes <br>in doing things with <span
-                class="spnp">perfection</span> and never thing for <span class="spnp">profit</span> first...</h1>
-        <div class="cards">
-            
-
-            <div class="card1">
-                <p class="linemem">Our team chief who analyze everything before finalizing...</p> <br>
-                <p class="membername1">Developer Devesh</p>
-                <p class="postofmem">Computer Science Engineer...</p>
-                <img src="https://lh3.googleusercontent.com/4KSZpHrd6nCDKjYZictHsdTmImRtw4B1l9N78Y78X2V8ih3KS0l__r1Qju_niGHIEwl76bu2Gegf4QF9u1s40OagObpU5vqnQAnQly-ogTRwNP5MBXENxzVvRBshTL8yivoSJUT5WY5k_4sBjJL9ovKlLBcyJBj04ge9oCFc694XWLWxft4qnolhAzoDaPcx1L_PkogxTump0bvotejoE9Qqev40jCYE3d8gKVDMJVD1TB_jGEWuOeQP5Z-aD1qQSrkat_YAUD4CLsNU1YMFuN6Aqg99ZN5axTHKHEG_0INwC6VmStY_viBF1z5TS4DBHLKMK0CLf-xqaZsFoSL6s2BIyMs0HIN7kDTEzwKpErC0rAxa9Yu6RKd-_0pL3e7dmoCrrvmbG2bRPiEh_Li7RWC6RhgZeIP-R4d5uv5I45oyQ6TnYdAiztBgT7Zf9rZXenp5zFEa4T1Gmjr3uMRyHGsjgr1xiSSud0eY7isS5wji1MiJcxTpJTKVzNXjwLi5UJwxizpKKc6EKUHO-YBZDfiUh56FrBBk6PL9RiZ27-_gdjbWqqS4jSZPLqvTJAZPBh8pGRI2iXC-5Zu5_OdATmRVfOAaU309fTHrcPMEBo4Cg_v_S-d2J31rPTPOd_uDPQV1ioCK1PYpb39x7xs7W16hUBDkw-gQFNMyoePmW1OFo6pgMOXylF3wAKg90HLSOPGvZZxK7dlRh-5x2Zpl_gEQO3lXH5vttDV-L6Fa4dWh8cmnxY6C8IkxZb8k7hlHr05ROBMiXpHnlyHLTpPIQCzrmjYHH80uAU9aMKIxhmjgJGjvQTmdIj1VWEGoAy41pij7epL4CHATbOx8hNfonRR-IC90XSVizB6iSWNwMGW5gKAiNGUeJGWA4qaG7kfScZrH9WyWWyworapoEdu-QbMkkkAqYAfGgvFdmqcQCKLIdzI8Oez1DkhzErAQTZ_2HFqA2RzhLGk=w367-h341-no?authuser=0" alt="" width="18%">
-            </div>
-
-            <div class="card1">
-                <p class="linemem">Our team chief who analyze everything before finalizing...</p> <br>
-                <p class="membername1">Developer Vishal</p>
-                <p class="postofmem">Computer Science Engineer...</p>
-                <img src="https://lh3.googleusercontent.com/-yxv55ZPxBgpfrpQr5m_OaFDacsPG1ekA2Chpaj-kvEd-px3IW-1Oj83-5TgEWvD-WX_9U1vYYwc9DAMqG6MGunNZGFjXNIHOu0_4wvLKCuT6awwiw6hNeZkb4Cod7i1bdTQuclp1zzk7eRNjitIuVHbhd9Hszom6vhLb5znIoHZDLQrxM5p4vNvv0eAgGtbGwpZFQW2Cjx0I_JzBPcLRQqhMD3jbSkAGHfYH2Vzshn5-kLH9T9yX5GiUHFLmyNBPC954sMNXq2YwZMLtH3QBG2ioYa2Rq-rlkF9bP2vTGv8AxZbhp7lN0-JwbTW3w46SZB9N-VgaPhlmCfuVkVbFmEemRgYUmRNWNgwzqrlu7Jr-kVWgU08WNbRvPFNOGvAT40y7VIaDOjbrspoDQSbix_Bz9JXxRqohTGsL6q1Wbv1EJUv2h_hzYaJJPSblqalDskWkDRnZTDxnNNqzPPfhwy4R8_gheIpiA23CvB_d0Pr1LcvMoAKIuCA64ySFRRUGYvadAvhmWGrsrsyjG5liGE34aduaT615au5jKQUmOVRUp8kix0IbC6a42NuxJTwAdTAWUhHXTZ9EClG1-6DenaK7daw0XJpasg_Ff-xJNImMNVsop4HuNfSOadqAF0Uz2an-qEav6c_ufn5khHjchOuFjz22oR27FcXL77W79FADm8ETZPrMcen9dyf7LEF88ycqmApjkNGtr-XOXbA7AaWRaUhZs9u1ixa-HGOFDWZYvyaWFRbbIywkYIa4YHchcU4voT2zaOhl0Z8chJXrdj-tE1VK6Ro9BLculE2acCc9j9VncGfAMgzeJTuvewgPuBBhZDa9q06AUdieM_LFPkgfBKfoRwlU7c_xXpkq_nOTj74eAdkMc5-lLo-qT29uy-XeD9Q3Ihe_xxsFqpEea_1k2ct5edNH8vWs8f48s4LWhwTCRHvox96q_n4aQBbcMG45AipZ6o=s250-k-rw-no" alt="" width="18%">
-            </div>
-
-            <div class="card1">
-                <p class="linemem">Our team chief who analyze everything before finalizing...</p> <br>
-                <p class="membername1">Developer Harsh</p>
-                <p class="postofmem">Computer Science Engineer...</p>
-                <img src="https://lh3.googleusercontent.com/7XGykwXGaTs1RKoQdn1BDfzwpklCu4A5f1zx_e5cij-kxOIETPB4cYsfmhWyDYWXb4dmb2aHjTcSWLhVjRl93Mj7aq4O4Z6PeM6eBrjVc3-2heI0QUlsCDVe4hbORawSGGeu_BsMP203RLUawsC-1nmPSIIPwOsazFj3wlFnYxEuiPnStXJBukSnrSRx6EivWFsujrifj2Q2ZIqUUa-Rw3Cc2a7htGT3pDrm4_1euhomtt1xTkng9ng8u7GQP5aBEPYmp6s_ZUcaFzYRGrdhwQf3B4qktuWyfzyKBHs2xsgVcb0gF4i1S70hmOjlbajB7UO_e_vTJ-heb8eneXFvEokLprixmHqz7QXyYqZXGJDp6yu45Iyb6rj8MTgHW0vqXYotFD1ERsYvjtZJ6Vcqdkgrp6AYcznWn5R-xYxsA5Xs8wjKYajMP2mQFcJ2hbwRFwEDEq32ZS7sRKgl2IEa2jWcfuA4bj6a-e_2-PAq8UgYHXJ81iW3kCKfr-mov55xWABSkc1LiP6B5ZBzlP87yVNDywnRsgPNyW728vPtS9x6khC4Pc4_RMPjSL74E8f5nn62nJ2eAxb_qXrscxRkHHJ4eisXs0ABbDHR8VTVMqNmEabQkFSC9kUrv4BtRQ6K5_N6NOWk89jJb99GskP14FYvJBEtrf3hftzsXU8nUNYXpOR7V8YJY3VeEHnI4_TVT4JLAraXC2PTaeBLihbrn7Q729w7L52T3nyMVoneoGTQGRYSp_uaMXBpfgqjmoHgIUlu9M62KNvsHsuiQGpjq2qyg0oeHMxgfD61Zf_TmbgDzssE5oqAbfZ2BY1Ocp7Aw7cRbrbs1IqWrO2VnZK8inNh8v-Ou4oVpWU6ybw3Wy_ssD48HZXJ1dy9f4SWM1rw2AHsoEoq0vV2U9bXxbZe6moX-xlCI9mQRy38sesA2zpnleYqL0LxBIa1VVsVlL2flUGE3FVAGSE=s320-no?authuser=0" alt="" width="18%">
-            </div>
-
-        </div>
-    </div>
-
-    <footer class="homefoot">
-        <div class="getstar" id="getstar">
-            <h1>If you are looking for work then you can <br> start your journey from here.<a href="teamreg.html" class="btnhai">Get
-                    Started</a></h1>
-
-
-
-        </div>
-
-        <div class="bottompage">
-            <div class="socialandlink">
-                <div class="soocial">
-                    <img src="https://lh3.googleusercontent.com/IYfyTz1w9Pe3rji7XiTCr-TgJTGqwwYBnpDFH2JekiBdzqMhgB3osTH9PKasfstEt79UYyf6afhbZCIA69tg_zJhqN4pUgNRZNMQDagUPbBPXkTQQmstGexbIdve26EFTt3ZSvqC-YMp7krPEUu51FbxPipHX0RxV4RLD1g6-5DVYzlUSkV6wRnzUQ4N2GHGE0LY8Qaj5gcBVijIVgEzvA-wKyespn7U_DS8DXyg30L3BCnsm3jcO_cnJjUIx07uSWN-yik20rI-ib00CM7Y4vMjdvrBTleh5j9oNoG1e0vVHTcGBhfuel6BFrHioA3SPA10THUK9eVTlHkI9AtrAf-WP6BBxwMAc7eXfP3VsA5XEUpoWTay4f1pIzNAh5O3gUrAogPQYObCOKvhMeP14H6-TmST2LuLA2w5H1DQIswNuLO19d5xzLOX8vNmCn5A3RNS5RkqsRp_vm9E_nhSx2KJ4E04sii92zQKrdKio6hYjHuaRGOE85Mz-uV-EKiakj9LLtu3vI5BjnDl2jmp3dOZ7SlDBgjZ43nCi71SYCEsEBFn3V7mxD-FdpG8u6shJLxsbZNMh0a8GAH1FvB8tVCQya5kYDXSFfDhjZUVYX911Ynh9XxUiB_nKfd-CkFcMq139YGyaXiRyhq3eNdLgCjtKt6Mo2rVCN_iaFsbyj9bxYUR43YEOv9WdTmUI2Y-AZgNkbmDV-6G7WOAord4s0ztoLYe6SryUm0AblbMzoWyox-evd3jIEFG06OacCS0iVrqHFy3UiQv6a1uJt810zOEhr6UYvssm124zTlhTKNVScUjjcnqTNaDyW6mUuUwAVp1jx3ZcsO_f-kMCIwdGHCERT75uS-hXHabWGPM40AleDSwScWU4BMn0On0dUASATLTiqZzPHfzOQqOO8jRECvRVys2cPFfPp8-UiVleLRjLNaBNvsGm990ArqekiOeXe8LJDHVl54=s480-no?authuser=0" alt="" width="3%">
-                    <img src="https://lh3.googleusercontent.com/t7bGhjuoL9gaihl649_Wn1m8sv5fCLAoxYgzOp1-HZzipJT7N059D9qA2IJVcZ59Z7Ci0kCQalyW6iOdxDil1mwm78VxiYs21BbQMXm8MrRjPryD0T_1_gAxvoSbVtzr8LJcaDydKoB5GiCldyNwiL4vBIUiUU_TDfsihGUHboMduZE_ZKk4TUzFw1aI6kiy9wvy4xKwqJZPCgTwFKk434h-eC1xKe7VISpmrH55HHbNVGY25eN_LA-tOEtSDepJz418llFOctrtaKcZAsCDeB1dg_mJICy7gizdtfv1DasKmVX_fWhYDEEAjBnW85gjsuNRKp1wg_U9hQ0hJzz231Ooev69olIq94qPThNBC4ogqg11bwHnFb2o0UBDeWjsySzjAH6BnNmk9TbobewmmVQYAR2wGtyWt6rUwHDEXoiAcdHZ1xQ3PcFizUYaJdTIeNg5IzEFmJqlY8A6lB2KNjToKVN-yAqcu_KgKNtp3rokUXq5rAOoRj7V7nIbJNn2HUR_3mYjH6hp_OAFkXdp44yUv-YhEFOVN2pXdk6eerQv82-6OuMH3EaUGrfCBNhCG53q-ZkprjD7sU3AVkjxLTeoZ2U8LS3PO1OEWO4GkxFKf2OZfJYp_CGzLf9Jv7BWRY5IKoDyVk_xQBaXV1nMAnh7xeZN9pA0Z-sjH8FS23Tdrq_gDfiZXmZrh4OruKb_OA39Gli4snNtxyrads9lSyZRBqOUNS0aFVakqtangYbu6zJgxPnHu37c2krJv2sD9ka-9hnGyycvhOT3Iyf8DyzDGpAMicpQQxlmP68o5wVufky264s38uFUEPVVSPrHvPJqwjBoq2E5JuY97q9cuvpuacwqYXqkqRE52qFPaNgeUUbCEC2SxTcvjCSfBJSRtWMUGBzg7QUUwdTWhHTQ3JbY1AYqAzoEOqZddfZ7mHRdnJ4Jyknnr_9B50gNhROpbevm3tmXWtk=s250-k-rw-no" alt="" width="3%">
-                    <img src="https://lh3.googleusercontent.com/ed4JdNDtgxvonrq5JY-vX54igxOsj54_Ge5nuUG6pomYxwGy2D_4j8qctkvJJJlePkKaVz2IhgE8ifGKYe-uTN84YpIXdiaQGrOiV2_KBsag9TUfP4s-si5YIdMN6KYJApVvxz8uIWcq6JsUCXLPEvqWRwzNE-e2wGOvh7PGSMxH91WohLpu-E0f9O-jhi8ZfYCBgozdCb4qu613M5tpK0V7t3AiYKaubF_LZfY7Hno6Col8eyj5XYoWlrGHkh2pfm78rH8rb7wgpz2BaNH0C9hUV-f8qIzNAbNoVi86F6KKtMi2Gguyd3vVJtyAgS99LVPaQJL-ZsYEUfEGTZbF2FJ4-jm1hgdfigHXAky9i0Mb0rcwSKAOYv8ZolAPd50Y5lFDVDWRs0VmhnG1oXH1vJrxWsh0djNRSDObGqnsYLD82UtfKo_aKkG_6k2oRX7Rh_FvBo5QJOHY8njXADG7xBamO6q8pVEuB9R2vMzCwvg1d1Wc3YLLr8h1zgx07eWrkXBkjTGcL1rAsMTl0kL2zR3rlLWgiqDYWr80BA8ORYJMDO-HYvGrEkdak0T_ZK0DjTGuW3O7NGjsHKDVTZrw6PxgrDjzQjYtPaiLi-xY0msNWzT0Ttvj7c7MUXHn5BgtiaeUQHW0ZwQWBRwkHbgnVOOldbf0YYuEF2HO2CNIzGQFS4UGvrZeCElv2MXdxcqC4ntmPMh4iW_-R8hM7da0fcLq_8MxJsNaHMZbdNh-iQSG2WwpBod5X16fm5ztuMRu5UHNr1CYpJMGwOEgU1nGvx5cYGkAX1g_tGdUZcZGWSxH5nmEikuCAIFqI1uh_YJqKEGpNkVT3XCxPunqTaYJAqy2jN4w19VhsE6P02PoRKgPHzi5FZp1MPq_aYNvsZGYmmtcXXscVpXo_TNy6-hdrxy2z8uKbQJyz5Dno-toYqr6DINOfCBI0mde_zBnzr2elwTtaDPZlvA=s250-k-rw-no" alt="" width="3%">
-                </div>
-                <div class="footlink">
-                    <ul>
-                        <a href="#">Support</a>|
-                        <a href="#">Donation</a>|
-                        <a href="#">Linkedin</a>|
-                        <a href="#">Github</a>|
-                        <a href="#">Google</a>
-                    </ul>
-                </div>
-
-            </div>
-            <span class="copyrights">&copy; 2022-23 <span>WebUnity</span></span>
-        </div>
-
-    </footer>
-
+ <script src="index.js"></script>
 </body>
-
 </html>
